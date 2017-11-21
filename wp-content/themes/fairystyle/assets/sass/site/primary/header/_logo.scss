@@ -1,0 +1,30 @@
+.site-logo {
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+	display: inline-block;
+	&__link {
+		text-decoration: none;
+
+		.site-logo-text {
+			margin-right: 8px;
+			margin-bottom: 18px;
+			display: inline-block;
+		}
+
+		img {
+			padding-bottom: 9px;
+		}
+	}
+}
+
+.site-description {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 8px;
+	margin-left: -3px;
+
+	.site-logo + & {
+
+	}
+}

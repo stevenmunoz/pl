@@ -1,0 +1,36 @@
+.container {
+	&.site-header,
+	&.site-content,
+	&.site-footer {
+		> .container {
+			@include reset-container();
+		}
+	}
+}
+
+// Theme specific
+.site-header,
+.site-footer {
+	&.container {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+.site-content {
+	padding-top: 15px;
+
+	@include media-breakpoint-up(md) {
+		padding-top: 46px;
+	}
+}
+
+.single-post .site-main, .page .site-main, .single .site-main {
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.single-post .post__tags {
+	float: none;
+}

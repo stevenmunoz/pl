@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"fairystyle","mapped_name":"template"},"allowed_paths":["\/Users\/stevenmunoz\/Sites\/pl\/wp-content\/themes"],"cache_path":"\/Users\/stevenmunoz\/Sites\/pl\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/pl\/"}' ?>

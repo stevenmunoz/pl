@@ -1,0 +1,50 @@
+.breadcrumbs {
+	position: relative;
+	margin: 0 0 32px;
+
+	> .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	&__title {
+		float: left;
+		margin-right: 30px;
+		padding-right: 30px;
+		border-right: 1px solid #e0e0e8;
+
+		.page-title {
+			margin: 0;
+		}
+	}
+
+	&__items {
+		float: left;
+	}
+
+	&__browse {
+		float: left;
+		margin-right: 10px;
+	}
+
+	&__wrap {
+		float: left;
+		margin: 0;
+
+		@media (min-width: 992px) {
+			margin: 4px 0;
+		}
+	}
+
+	&__item {
+		float: left;
+
+		&-sep {
+			margin: 0 10px;
+		}
+	}
+}
+
+.woocommerce .breadcrumbs {
+	margin: 0 0 45px;
+}

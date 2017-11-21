@@ -1,0 +1,54 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase /pl/ 
+#WriteCheckString:1511298433_80633
+RewriteRule .* - [E=HTTP_MOD_REWRITE:On]
+
+RewriteRule ^template/skin.css /pl/wp-content/themes/fairystyle/style.css [L,QSA]
+
+RewriteRule ^template/(.+) /pl/wp-content/themes/fairystyle/$1 [L,QSA]
+
+RewriteRule ^modules/(.+) /pl/wp-content/plugins/$1 [L,QSA]
+
+RewriteRule ^inc/(.+) /pl/wp-includes/$1 [L,QSA]
+
+RewriteRule ^media/(.+) /pl/wp-content/uploads/$1 [L,QSA]
+
+RewriteRule ^my-xmlrpc.php /pl/xmlrpc.php [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^readme.html /pl/index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^license.txt /pl/index.php?wph-throw-404 [L]
+
+RewriteRule ^user-input.php /pl/wp-comments-post.php [L,QSA]
+
+RewriteRule ^files/(.+) /pl/wp-content/$1 [L,QSA]
+
+RewriteRule ^gli.php(.*) /pl/wp-login.php$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-login.php /pl/index.php?wph-throw-404 [L]
+
+RewriteCond %{REQUEST_URI} /pl/gia$
+RewriteRule ^(.*)$ /pl/gia/ [R=301,L]
+RewriteRule ^gia(.*) /pl/wp-admin$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-admin(.+) /pl/index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^dashboard(.+) /pl/index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^admin(.+) /pl/index.php?wph-throw-404 [L]
+</IfModule> 
+
+# END WP Hide & Security Enhancer
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /pl/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /pl/index.php [L]
+</IfModule>
+
+# END WordPress

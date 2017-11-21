@@ -1,0 +1,47 @@
+.not-found {
+	@include card;
+	box-shadow: none;
+	padding: 0;
+	text-align: center;
+	margin: 0 0 10px;
+
+	.page-title {
+		margin: 6px 0 8px;
+	}
+
+	.page-content {
+		margin: 0;
+	}
+
+	h2 {
+		margin-top: 8px;
+		margin-bottom: 31px;
+	}
+
+	h4 {
+		margin-bottom: 14px;
+	}
+
+	hr {
+		margin: 48px 0 54px;
+	}
+
+	.search-form {
+		max-width: 397px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h4 {
+		margin-bottom: 14px;
+	}
+
+	.btn {
+		margin-bottom: 11px;
+	}
+
+	@include media-breakpoint-up(lg) {
+		padding: 30px;
+		margin: 0 0 30px;
+	}
+}

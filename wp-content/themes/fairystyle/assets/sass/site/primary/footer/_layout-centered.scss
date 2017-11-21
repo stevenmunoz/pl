@@ -1,0 +1,21 @@
+.site-footer.centered {
+	text-align: center;
+
+	.footer-container {
+		padding: 50px 0 42px;
+	}
+
+	.footer-text-center {
+		max-width: 930px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	* + .footer-text-center {
+		margin-top: 12px;
+	}
+
+	.site-info .social-list {
+		margin: 25px 0 21px;
+	}
+}

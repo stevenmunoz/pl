@@ -1,0 +1,122 @@
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+		> a {
+			display: inline-block;
+			vertical-align: top;
+			&:before {
+				@include material-icon();
+				font-size: 20px;
+				content: '\E408';
+				vertical-align: top;
+			}
+		}
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+		> a {
+			display: inline-block;
+			vertical-align: top;
+			&:after {
+				@include material-icon();
+				font-size: 20px;
+				content: '\E409';
+				vertical-align: top;
+			}
+		}
+	}
+}
+
+.pagination {
+	padding: 0 0 25px;
+	.page-numbers {
+		display: inline-block;
+		min-width: 50px;
+		height: 50px;
+		padding: 5px;
+		//border: 1px solid $color__background-hr;
+		border: 1px solid ;
+		margin: 0 5px 5px 0;
+		//border-radius: $border__radius;
+		border-radius: 4px;
+		@include font-size(1);
+		line-height: 38px;
+		text-align: center;
+		&.dots {
+			border: none;
+			min-width: 30px;
+		}
+		&.next,
+		&.prev {
+			border: none;
+			line-height: 40px;
+			i {
+				vertical-align: middle;
+			}
+		}
+	}
+}
+.pagination, .woocommerce nav.woocommerce-pagination {
+	margin-top: 60px;
+	padding: 0 0 56px;
+	ul.page-numbers {
+		border: none;
+		display: block;
+		li {
+			margin-right: 0;
+			a.next.page-numbers {
+				text-indent: 1000px;
+				position: relative;
+				&:after {
+					font-family: 'Material Icons';
+					content: "\e409";
+					font-size: 18px;
+					line-height: 50px;
+					text-indent: 0;
+					color: #fff;
+					display: block;
+					position: absolute;
+					font-style: normal;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+				}
+			}
+		}
+	}
+	.material-icons {
+		line-height: 13px;
+	}
+	a.page-numbers, span.page-numbers, ul li {
+		width: auto;
+		height: auto;
+		min-width: 0;
+		padding: 0;
+		border: none;
+		line-height: 50px;
+		margin: 0 20px 0 0;
+		border-radius: 0;
+		&.prev, &.next {
+			padding: 0;
+			line-height: 50px;
+			width: 50px;
+			height: 50px;
+		}
+		&.next {
+			margin: 0 25px 0 0;
+		}
+	}
+}

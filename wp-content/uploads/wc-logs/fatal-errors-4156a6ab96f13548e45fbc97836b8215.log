@@ -1,0 +1,120 @@
+2017-11-21T21:04:48+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:04:58+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:05:01+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:05:05+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:12:33+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:12:44+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:12:47+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:12:52+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:12:59+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:13:07+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:13:35+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+
+2017-11-21T21:13:47+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php on line 300 and defined in /Users/stevenmunoz/Sites/pl/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:41
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(300): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(0, Array)
+#2 /Users/stevenmunoz/Sites/pl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/post.php(3510): do_action('save_post', 0, NULL, false)
+#4 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2541): wp_insert_post(Array, true)
+#5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
+

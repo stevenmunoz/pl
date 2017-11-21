@@ -1,0 +1,70 @@
+ul, ol {
+	margin: 1.35em 0;
+	padding-left: 0;
+
+	.page .entry-content &, .entry-content & {
+		font-size: 1em;
+
+		li {
+			position: relative;
+
+			+ li {
+				margin-top: 7px;
+			}
+		}
+	}
+}
+
+ul {
+	.page .entry-content > &, .entry-content > & {
+		li {
+			position: relative;
+			padding-left: 13px;
+
+			&:before {
+				content: '\2022';
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+	}
+}
+
+ol {
+	.page .entry-content > &, .entry-content > & {
+		counter-reset: li;
+
+		> li {
+			position: relative;
+
+			&:before {
+				content: counter(li, decimal-leading-zero) '.';
+				counter-increment: li;
+				margin-right: 7px;
+			}
+		}
+	}
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+/* Inline list */
+.inline-list {
+	@include reset-list;
+	li {
+		display: inline-block;
+	}
+}

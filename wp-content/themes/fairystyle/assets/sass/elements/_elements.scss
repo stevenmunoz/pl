@@ -1,0 +1,171 @@
+html {
+	box-sizing: border-box;
+}
+
+#page {
+	overflow: hidden;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: border-box;
+}
+a,
+
+a:hover,
+a:active,
+a:focus {
+	outline: none !important;
+}
+
+body {
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+blockquote {
+	position: relative;
+	margin: 0;
+	padding: 4px 30px 5px 58px;
+	@include font-size(1.25);
+	//@include media-breakpoint-up(lg) {
+	//	padding: 16px 30px 10px 70px;
+	//}
+	//.posts-list--grid-2-cols & {
+	//	@include font-size(1);
+	//}
+	cite {
+		display: block;
+		font-style: normal;
+		margin-top: 21px;
+		@include font-size(0.875);
+		&:before {
+			content: '\2014';
+			margin-right: 4px;
+		}
+	}
+	&:before {
+		content: "\201C";
+		@include material-icon();
+		position: absolute;
+		font-size: 40px;
+		top: -1px;
+		left: -7px;
+		margin: 0;
+		font-weight: 900;
+		line-height: 1;
+		font-size: 100px;
+		//@include media-breakpoint-up(lg) {
+		//	font-size: 50px;
+		//	left: 20px;
+		//	top: 25px;
+		//}
+	}
+	@media (max-width: 479px) {
+		padding: 38px 10px 4px 0;
+
+		p, q {
+			font-size: 22px;
+		}
+
+		&:before {
+			top: -10px;
+			left: 0;
+		}
+
+		cite {
+			margin-top: 13px;
+		}
+	}
+}
+
+ol, ul {
+	list-style: none;
+}
+
+hr {
+	background-color: #e8e8eb;
+	border: 0;
+	height: 1px;
+	margin: 55px 0 52px;
+	overflow: hidden;
+	clear: both;
+	@media (max-width: 479px) {
+		margin: 30px 0;
+	}
+}
+
+code {
+	padding: 2px 5px;
+}
+
+.post-format-quote, .post_format-post-format-quote blockquote {
+	position: relative;
+	padding: 33px 50px 41px 101px;
+
+	&:before {
+		content: "\201C";
+		position: absolute;
+		top: 23px;
+		left: 37px;
+		margin: 0;
+		font-size: 100px;
+		line-height: 1;
+		font-weight: 900;
+	}
+
+	cite {
+		display: block;
+		font-style: normal;
+		margin-top: 18px;
+		font-size: 14px;
+
+		&:before {
+			content: '\2014';
+			margin-right: 4px;
+		}
+	}
+	@media (max-width: 479px) {
+		&:before {
+			left: 50px;
+		}
+	}
+}
+
+p + p > img, p + img {
+	margin-top: 25px;
+}
+
+p + p > img.alignnone {
+	margin-top: 18px;
+}
+
+p > img {
+	margin-bottom: 11px;
+}
+
+.offset {
+	&-1 {
+		margin-top: 11px;
+		margin-bottom: 0;
+		display: inline-block;
+	}
+}
+
+@import "lists";
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+@import "tables";
