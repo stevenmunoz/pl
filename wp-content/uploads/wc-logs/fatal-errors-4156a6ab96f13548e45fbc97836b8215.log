@@ -118,3 +118,12 @@ Stack trace:
 #5 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-customize-manager.php(2174): WP_Customize_Manager->save_changeset_post(Array)
 #6 /Users/stevenmunoz/Sites/pl/wp-includes/class-wp-hook.php(298): WP_C
 
+2017-11-24T01:28:26+00:00 CRITICAL Uncaught Error: Class 'W3TC\Cache' not found in /Users/stevenmunoz/Sites/pl/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php:313
+Stack trace:
+#0 /Users/stevenmunoz/Sites/pl/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php(256): W3TC\DbCache_WpdbInjection_QueryCaching->_get_cache()
+#1 /Users/stevenmunoz/Sites/pl/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php(233): W3TC\DbCache_WpdbInjection_QueryCaching->_flush_cache_group('options')
+#2 /Users/stevenmunoz/Sites/pl/wp-content/plugins/w3-total-cache/DbCache_Wpdb.php(169): W3TC\DbCache_WpdbInjection_QueryCaching->update('wp_options', Array, Array, NULL, NULL)
+#3 /Users/stevenmunoz/Sites/pl/wp-includes/option.php(342): W3TC\DbCache_Wpdb->update('wp_options', Array, Array)
+#4 /Users/stevenmunoz/Sites/pl/wp-content/plugins/woocommerce-jetpack/includes/exchange-rates/class-wcj-exchange-rates-crons.php(45): update_option('wcj_currency_ex...', 1511529861)
+#5 /Users/stevenmunoz/Sites/pl/wp-include
+
